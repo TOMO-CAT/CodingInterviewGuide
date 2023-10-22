@@ -12,6 +12,7 @@
     "markdownlint.config": {
         "MD040": false,
         "MD045": false,
+        "MD024": false,
     },
     // format on save
     "editor.formatOnSave": true,
