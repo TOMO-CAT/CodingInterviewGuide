@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "cout",
+        "endl",
+        "nullptr",
+        "nums",
+        "struct"
+    ],
+    // 屏蔽 markdownlint 的一些规则
+    "markdownlint.config": {
+        "MD040": false,
+        "MD045": false,
+    },
+    // format on save
+    "editor.formatOnSave": true,
+    // 在文件末尾加入空行
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+}

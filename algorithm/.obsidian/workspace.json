@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "6f757c48dc6e2dc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e00c04ae45b1536e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1da6e308b1cb6eda",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "859978298ffae749",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "7cb76605049ac3b4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "34cbf6db403d90e9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4f4c4a3359018da0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d90323f25c533abe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0f276d7e9f3d54ef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a3dea75d6acda0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hot-100/617. 合并二叉树.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2f4b39187607ce4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63f045308bc8fbec",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2107c77460e55e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dc2494c93c23830",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a68f675c2464a6f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "chown",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91b628323c1c24e0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3fd5fcdf74597aef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6fcaa62f2a1b4bdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d22941d08b98e56b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab65d7295b3f6221",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hot-100/617. 合并二叉树.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b6c345a3b57a254",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hot-100/617. 合并二叉树.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "328e265d51374faf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "72560a50cf84459d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hot-100/617. 合并二叉树.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "4a3dea75d6acda0a",
+  "lastOpenFiles": [
+    "hot-100/image/image-20231022185001134.png",
+    "hot-100/538. 把二叉搜索树转换为累加树.md",
+    "hot-100/image/image-20231022184907111.png",
+    "hot-100/437. 路径总和 III.md",
+    "hot-100/image/image-20231022184715651.png",
+    "hot-100/338. 比特位计数.md",
+    "hot-100/337. 打家劫舍 III.md",
+    "hot-100/image/image-20231022184504831.png",
+    "hot-100/image/image-20231022184445925.png",
+    "hot-100/297. 二叉树的序列化与反序列化.md",
+    "hot-100/image/image-20231022184125053.png",
+    "hot-100/240. 搜索二维矩阵 II.md",
+    "hot-100/image/image-20231022184025459.png",
+    "hot-100/image/image-20231022183930994.png",
+    "hot-100/image/image-20231022183829574.png",
+    "hot-100/image.png",
+    "hot-100/236. 二叉树的最近公共祖先.md",
+    "hot-100/image/image-20231022183702780.png",
+    "hot-100/234. 回文链表.md",
+    "hot-100/226. 翻转二叉树.md",
+    "image/Pasted image 20231022183527.png.md",
+    "image",
+    "hot-100/221. 最大正方形.md",
+    "hot-100/215. 数组中的第K个最大元素.md",
+    "hot-100/206. 反转链表.md",
+    "hot-100/169. 多数元素.md",
+    "hot-100/160. 相交链表.md",
+    "hot-100/148. 排序链表.md",
+    "hot-100/142. 环形链表 II.md",
+    "hot-100/141. 环形链表.md",
+    "hot-100/124. 二叉树中的最大路径和.md",
+    "hot-100/114. 二叉树展开为链表.md",
+    "hot-100/105. 从前序与中序遍历序列构造二叉树.md",
+    "hot-100/104. 二叉树的最大深度.md",
+    "hot-100/102. 二叉树的层序遍历.md",
+    "hot-100/98. 验证二叉搜索树.md",
+    "hot-100/96. 不同的二叉搜索树.md",
+    "网络编程/TCP/image",
+    "shell/快捷键",
+    "自动驾驶/驱动/驱动接口标准化",
+    "interview/Linux/文件操作",
+    "工具/Chrome/插件",
+    "工具/Chrome",
+    "C++/C++后端开发/C++编译与研发工具/BAZEL/命令/image",
+    "C++/C++后端开发/C++编译与研发工具/BAZEL/文件/image",
+    "C++/C++后端开发/C++编译与研发工具/BAZEL/命令"
+  ]
+}
