@@ -4,17 +4,11 @@
 
 难度：中等
 
-<a href="https://baike.baidu.com/item/LRU">LRU (最近最少使用) 缓存</a>
-
-<code>LRUCache</code>
-
 * LRUCache(int capacity) 以 **正整数** 作为容量 capacity 初始化 LRU 缓存
 * int get(int key) 如果关键字 key 存在于缓存中，则返回关键字的值，否则返回 -1 。
 * void put(int key, int value) 如果关键字 key 已经存在，则变更其数据值 value ；如果不存在，则向缓存中插入该组 key-value 。如果插入操作导致关键字数量超过 capacity ，则应该 **逐出** 最久未使用的关键字。
 
 函数 get 和 put 必须以 O(1) 的平均时间复杂度运行。
-
-
 
 **示例：**
 
@@ -39,18 +33,9 @@ lRUCache.get(4);    // 返回 4
 
 ```
 
-**提示：**
-
-* 1 <= capacity <= 3000
-* 0 <= key <= 10000
-* 0 <= value <= 10<sup>5</sup>
-* 最多调用 2 * 10<sup>5</sup> 次 get 和 put
-
-来源：力扣（LeetCode）
-
-链接：https://leetcode-cn.com/problems/lru-cache/
-
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+> 来源：力扣（LeetCode）  
+> 链接：<https://leetcode-cn.com/problems/lru-cache/>  
+>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 ## 思路：哈希链表
 
@@ -72,7 +57,7 @@ LRU 缓存算法的核心数据结构就是哈希链表，双向链表和哈希�
 
 ## 答案
 
-#### 1. 使用 C++ List
+### 1. 使用 C++ List
 
 尤其注意：
 
@@ -133,7 +118,7 @@ public:
  */
 ```
 
-#### 2. 自定义双向链表结构
+### 2. 自定义双向链表结构
 
 ```c++
 // 双向链表

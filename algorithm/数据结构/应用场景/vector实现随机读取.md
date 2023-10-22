@@ -10,8 +10,8 @@
 
 ## 实现
 
-* `std::unordered_map<int, int>`存储元素到元素索引的hash，实现$$O(1)$$复杂度的`add`与`del`
-* `std::vector<int>`存储全量元素，随机数引擎获取一个元素对 vector.size() 取余后直接访问即可
+* `std::unordered_map<int, int>` 存储元素到元素索引的hash，**实现 $O(1)$ 复杂度**的 `add` 与 `del`
+* `std::vector<int>` 存储全量元素，随机数引擎获取一个元素对 `vector.size()` 取余后直接访问即可
 
 ```c++
 std::vector<int> data_;
@@ -35,4 +35,3 @@ int random() {
     return data_[random_idx % data_.size()];
 }
 ```
-
