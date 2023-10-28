@@ -1,12 +1,20 @@
 {
     "cSpell.words": [
+        "cassert",
         "cout",
+        "cstddef",
+        "cstdlib",
         "deque",
         "endl",
         "iostream",
+        "memcpy",
+        "noexcept",
         "nullptr",
         "nums",
-        "struct"
+        "ostream",
+        "pdst",
+        "struct",
+        "tomo"
     ],
     // 屏蔽 markdownlint 的一些规则
     "markdownlint.config": {

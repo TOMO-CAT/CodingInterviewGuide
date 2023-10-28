@@ -1,4 +1,4 @@
-# 标准库 function 类型
+# 标准库function类型
 
 ## 可调用对象与调用形式
 
@@ -7,7 +7,7 @@ C++语言中有几种可调用的对象：函数、函数指针、`lambda`表达
 调用形式指明了调用返回的类型以及传递给调用的实参类型，一种调用形式对应一个函数类型，例如：
 
 ```c++
-// 函数类型: 接受两个 int 并返回一个 int
+// 函数类型: 接受两个int并返回一个int
 int(int, int);
 ```
 
@@ -16,7 +16,7 @@ int(int, int);
 ```c++
 // 普通函数
 int add(int i, int j) { return i + j; }
-// lambda 表达式
+// lambda表达式
 auto mod = [](int i, int j) { return i % j; };
 // 重载了函数调用运算符的类
 struct divide {
@@ -26,7 +26,7 @@ struct divide {
 };
 ```
 
-## 标准库 function 类型
+## 标准库function类型
 
 `function`定义在`functional`头文件中，可以将可调用对象按照调用形式进行分类。
 
@@ -55,7 +55,7 @@ struct divide {
 
 // 普通函数
 int add(int i, int j) { return i + j; }
-// lambda 表达式
+// lambda表达式
 auto mod = [](int i, int j) { return i % j; };
 // 重载了函数调用运算符的类
 struct divide {
@@ -68,9 +68,9 @@ int main() {
     std::function<int(int, int)> f1 = add;                                 // 函数指针
     std::function<int(int, int)> f2 = divide();                            // 函数对象类的对象
     std::function<int(int, int)> f3 = [](int i, int j) { return i * j; };  // lambda
-    std::cout << f1(4, 2) << std::endl;  // 打印 6
-    std::cout << f2(4, 2) << std::endl;  // 打印 2
-    std::cout << f3(4, 2) << std::endl;  // 打印 8
+    std::cout << f1(4, 2) << std::endl;  // 打印6
+    std::cout << f2(4, 2) << std::endl;  // 打印2
+    std::cout << f3(4, 2) << std::endl;  // 打印8
 }
 ```
 
@@ -78,19 +78,19 @@ int main() {
 
 ```c++
 // 列举了可调用对象与二元运算符对应关系的表格
-// 可调用对象需要接收两个 int，返回一个 int
-// 其中的元素可以是函数指针、函数对象或者 lambda
+// 可调用对象需要接收两个int，返回一个int
+// 其中的元素可以是函数指针、函数对象或者lambda
 std::map<std::string, std::function<int(int, int)>> binops = {
     {"+", add},                                // 函数指针
     {"-", std::minus<int>()},                  // 标准库函数对象
     {"/", divide()},                           // 用户定义的函数对象
-    {"*", [](int i, int j) {return i * j;} },  // 未命名的 lambda
-    {"%", mod}};                               // 命名了的 mod 对象
+    {"*", [](int i, int j) {return i * j;} },  // 未命名的lambda
+    {"%", mod}};                               // 命名了的mod对象
 
 // 调用方式
-binops["+"](10, 5);  // 调用 add(10, 5)
-binops["-"](10, 5);  // 调用 minus<int>对象的调用运算符
-binops["/"](10, 5);  // 调用 divide 对象的调用运算符
-binops["*"](10, 5);  // 调用 lambda 对象
-binops["%"](10, 5);  // 调用 lambda 对象
+binops["+"](10, 5);  // 调用add(10, 5)
+binops["-"](10, 5);  // 调用minus<int>对象的调用运算符
+binops["/"](10, 5);  // 调用divide对象的调用运算符
+binops["*"](10, 5);  // 调用lambda对象
+binops["%"](10, 5);  // 调用lambda对象
 ```
