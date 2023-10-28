@@ -24,14 +24,13 @@ void add(int num) {
 
 void del(int num) {
     int idx = num2idx_[num];
-    std::swap(data_[idx], data_[data_.size() - 1]);
+    std::swap(data_[idx], data_[data_.size() - 1]);  // 关键代码
     data_.pop_back();
 }
 
 int random() {
     int random_idx;
     // 生成一个随机数
-    
     return data_[random_idx % data_.size()];
 }
 ```

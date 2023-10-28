@@ -19,4 +19,5 @@
     // 在文件末尾加入空行
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "autoAddSpace.enable": true,
 }
