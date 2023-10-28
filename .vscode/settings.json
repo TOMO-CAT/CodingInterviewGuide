@@ -14,7 +14,9 @@
         "ostream",
         "pdst",
         "struct",
-        "tomo"
+        "tomo",
+        "Uncopyable",
+        "vptr"
     ],
     // 屏蔽 markdownlint 的一些规则
     "markdownlint.config": {
