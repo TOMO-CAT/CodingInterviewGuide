@@ -59,8 +59,12 @@
             "id": "0f276d7e9f3d54ef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Golang/Golang语法/07. 复制数组与复制切片.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -146,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Golang/Golang语法/07. 复制数组与复制切片.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Golang/Golang语法/07. 复制数组与复制切片.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Golang/Golang语法/07. 复制数组与复制切片.md"
+              }
             }
           }
         ],
@@ -203,34 +211,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0f276d7e9f3d54ef",
+  "active": "3dc2494c93c23830",
   "lastOpenFiles": [
+    "Golang/Golang源码/04. Golang调度器.md",
+    "Golang/Golang源码/03. GC源码记忆点.md",
+    "Golang/Golang源码/02. GC面试题.md",
+    "Golang/Golang源码/01. 内存管理记忆点.md",
+    "Golang/Golang源码/1. 内存管理记忆点.md",
+    "Golang/Golang语言特性/16. Golang 中如何实现多态.md",
+    "Golang/Golang语言特性/09. 如何实现抢占.md",
+    "Golang/Golang语言特性/08. sysmon.md",
+    "Golang/Golang语言特性/07. GMP.md",
+    "Golang/Golang语言特性/06. 如何停止一个正在运行的 goroutine.md",
+    "Golang/Golang语言特性/05. int 和 uint 类型溢出问题.md",
+    "Golang/Golang语言特性/04. new 与 make 区别.md",
+    "Golang/Golang语言特性/03. init 函数.md",
+    "Golang/Golang语言特性/02. 值语义和引用语义.md",
+    "Golang/Golang语言特性/01. 类型系统.md",
+    "Golang/Golang工程场景/1. 如何实现全局配置的热更新.md",
+    "Golang/Golang语法/09. map.md",
+    "Golang/Golang语法/08. 字符串 string.md",
+    "Golang/Golang语法/07. 复制数组与复制切片.md",
+    "Golang/Golang语法/06. 选择 int 还是 int32.md",
+    "Golang/Golang语法/05. 布尔类型不接受其他类型的转换.md",
+    "Golang/Golang语法/04. iota枚举类型.md",
+    "Golang/Golang语法/03. 字面常量.md",
+    "Golang/Golang语法/02. range循环的本质.md",
+    "Golang/Golang语法/01. nil切片与空切片.md",
     "C++/类/09. 什么时候使用 virtual 析构函数.md",
-    "C++/类/08. 虚函数.md",
-    "C++/类/07. 移动构造函数和移动赋值运算符.md",
-    "C++/类/06. 禁止继承的类.md",
-    "C++/类/05. 三五法则.md",
-    "C++/类/04. 构造函数.md",
-    "C++/类/03. 类访问权限.md",
-    "C++/类/02. 如何设计类与接口.md",
-    "C++/类/1. 对象是否可被拷贝.md",
-    "C++/类/01. 对象是否可被拷贝.md",
-    "C++/继承与多态/04. 多态.md",
-    "C++/继承与多态/03. 继承、封装和多态.md",
-    "C++/继承与多态/02. 继承与组合的选择.md",
-    "C++/继承与多态/01. 接口继承与实现继承.md",
-    "C++/标准库/03. unordered_map与map.md",
-    "C++/标准库/02. STL 容器为什么不能存储引用类型.md",
-    "C++/标准库/01. vector 扩容机制.md",
-    "C++/代码实现题/04. 实现一个 shared_ptr.md",
-    "C++/代码实现题/03. 实现 shared_ptr 的构造和析构函数.md",
-    "C++/代码实现题/02. 实现内存拷贝函数.md",
-    "C++/代码实现题/01. 模板实现编译期运算.md",
-    "C++/C++特性/06. 内存顺序.md",
-    "C++/C++特性/05. 引用本质.md",
-    "C++/C++特性/04. 虚函数表与动态绑定.md",
-    "C++/C++特性/03. RAII.md",
-    "C++/C++特性/02. Linux 下 C++ 编译原理.md",
     "C++/继承与多态/image/v2-82cb160ed1566d1d04ea320575b54d5f_720w.jpg",
     "C++/继承与多态/image/v2-e651244eeca9c0881cbdd2add429e850_720w.jpg",
     "C++/继承与多态/image/image-20220227184803074.png",
